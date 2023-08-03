@@ -270,9 +270,11 @@ module.exports = {
       label: "Monitoring",
       collapsed: false,
       items: [
+        "marketplace/monitoring/Elasticsearch",
         "marketplace/monitoring/prometheus",
-        "marketplace/monitoring/zabbix-proxy",
-        "marketplace/monitoring/zabbix-server",      ],
+        "marketplace/monitoring/zabbix-proxy",  
+        "marketplace/monitoring/zabbix-server",     
+      ],
     },
     {
       type: "category",
